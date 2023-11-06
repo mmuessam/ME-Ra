@@ -1,7 +1,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
- @type {import('tailwindcss').Config} */
- module.exports = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
 	content: [
 		"./app/**/*.{js,ts,jsx,tsx}",
 		"./mdx-components.tsx",
@@ -101,12 +101,10 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 						opacity: "100%",
 					},
 				},
-
-		},
+			},
 		},
 	},
 	plugins: [
-		plugins: [
 		require("@tailwindcss/typography"),
 		require("tailwindcss-debug-screens"),
 	],
