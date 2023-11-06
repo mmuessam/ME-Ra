@@ -104,6 +104,8 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 			},
 		},
 	},
-	plugins: [
+		plugins: [
 		require("@tailwindcss/typography"),
 		require("tailwindcss-debug-screens"),
+	],
+};
