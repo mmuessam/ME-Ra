@@ -101,9 +101,11 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 						opacity: "100%",
 					},
 				},
-			},
+
+		},
 		},
 	},
+	plugins: [
 		plugins: [
 		require("@tailwindcss/typography"),
 		require("tailwindcss-debug-screens"),
