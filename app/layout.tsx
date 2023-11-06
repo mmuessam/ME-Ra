@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "Mahmpud Essam UI/UX Dev",
+		template: "%s | Mahmpud Essam",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "UI/UX Developer",
 	openGraph: {
-		title: "chronark.com",
+		title: "UI/UX Developer",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"UI/UX Developer",
+		url: "Mahmoud-UI-UX-Dev.com",
+		siteName: "Mahmoud-UI-UX-Dev.com",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "Mahmoud-UI-UX-Dev.com",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,11 +38,11 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Mahmpud Essam ",
 		card: "summary_large_image",
 	},
 	icons: {
-		shortcut: "/favicon.png",
+		shortcut: "/MElogo.png",
 	},
 };
 const inter = Inter({
