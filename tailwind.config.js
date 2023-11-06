@@ -107,5 +107,3 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 	plugins: [
 		require("@tailwindcss/typography"),
 		require("tailwindcss-debug-screens"),
-	],
-};
